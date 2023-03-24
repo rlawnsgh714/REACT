@@ -1,10 +1,14 @@
 import React from "react";
 
 const Random = () => {
-  const randomNum = Math.floor(Math.random() * 100);
+  const getNum = () => {
+    const num = parseInt(Math.random() * 255);
+    alert(num);
+  };
+
   return (
     <div>
-      <h1>{randomNum}</h1>
+      <button onClick={getNum}>버튼</button>
     </div>
   );
 };
