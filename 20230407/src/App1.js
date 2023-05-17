@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import "./App.css";
 
 const App1 = () => {
   const [a, setA] = useState(0);
